@@ -148,6 +148,19 @@ class UdfpsSensor : public SysfsPollingOneShotSensor {
               static_cast<SensorType>(static_cast<int32_t>(SensorType::DEVICE_PRIVATE_BASE) + 2)) {}
 };
 
+const std::string kTsUdfpsPressedPath = kTsPath + "udfps_pressed";
+const std::string kTsUdfpsEnabledPath = kTsPath + "udfps_enabled";
+
+class UdfpsSensor : public SysfsPollingOneShotSensor {
+  public:
+    UdfpsSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
+        : SysfsPollingOneShotSensor(
+                  sensorHandle, callback, kTsUdfpsPressedPath, kTsUdfpsEnabledPath, "UDFPS Sensor",
+                  "org.lineageos.sensor.udfps",
+                  static_cast<SensorType>(static_cast<int32_t>(SensorType::DEVICE_PRIVATE_BASE) +
+                                          2)) {}
+};
+
 }  // namespace implementation
 }  // namespace subhal
 }  // namespace V2_1
