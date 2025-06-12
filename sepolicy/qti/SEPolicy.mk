@@ -8,6 +8,3 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     hardware/motorola/sepolicy/qti/private
-
-SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
-    hardware/motorola/sepolicy/qti/public
