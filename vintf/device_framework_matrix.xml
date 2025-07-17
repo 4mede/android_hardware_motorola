@@ -3,7 +3,7 @@
      SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<compatibility-matrix version="9.0" type="framework">
+<compatibility-matrix version="8.0" type="framework">
     <hal format="hidl" optional="true">
         <name>com.fingerprints.extension</name>
         <version>1.0</version>
