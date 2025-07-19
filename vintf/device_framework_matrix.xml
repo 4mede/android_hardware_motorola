@@ -283,4 +283,13 @@
            <instance>slot3</instance>
        </interface>
     </hal>
+    <hal format="aidl" optional="true">
+    <name>vendor.qti.hardware.radio.ims</name>
+    <version>1-7</version>
+    <interface>
+        <name>IImsRadio</name>
+        <instance>imsradio0</instance>
+        <instance>imsradio1</instance>
+    </interface>
+</hal>
 </compatibility-matrix>
