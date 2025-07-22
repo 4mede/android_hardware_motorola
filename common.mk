@@ -18,7 +18,9 @@ ifeq ($(TARGET_BUILDS_OSS_BIOMETRICS),true)
 # Biometrics
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.motorola
+endif
 
+ifeq ($(TARGET_BUILDS_UDFPS_OVERLAYS),true)
 # UDFPS Overlays
 PRODUCT_PACKAGES += \
     MotoUDFPSOverlay
