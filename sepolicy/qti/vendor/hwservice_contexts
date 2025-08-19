@@ -1,3 +1,6 @@
+# Audio
+motorola.hardware.audio.radar::IAudioRadar    u:object_r:hal_audio_hwservice:s0
+
 # Fingerprint
 com.fingerprints.extension::IFingerprintNavigation                            u:object_r:hal_fingerprint_hwservice:s0
 com.motorola.hardware.biometric.fingerprint::IMotoFingerPrint                 u:object_r:hal_fingerprint_hwservice:s0
@@ -12,3 +15,6 @@ vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemonExt    u:
 # NFC
 vendor.nxp.nxpese::INxpEse    u:object_r:nxpese_hwservice:s0
 vendor.nxp.nxpnfc::INxpNfc    u:object_r:nxpnfc_hwservice:s0
+
+# Sensors
+motorola.hardware.sensors.ISensorExt    u:object_r:hal_sensors_hwservice:s0
