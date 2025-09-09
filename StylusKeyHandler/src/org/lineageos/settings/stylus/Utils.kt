@@ -12,6 +12,7 @@ import android.os.SystemClock
 import android.os.VibrationAttributes
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.provider.Settings
 import android.util.Log
 
 class Utils(private val context: Context) {
@@ -49,6 +50,11 @@ class Utils(private val context: Context) {
                 Log.e(TAG, "Failed to launch $packageName", e)
             }
         } ?: Log.w(TAG, "No launch intent found for $packageName")
+    }
+
+    fun isSetupComplete(): Boolean {
+        return Settings.Global.getInt(context.contentResolver, Settings.Global.DEVICE_PROVISIONED, 0) != 0 &&
+                Settings.Secure.getInt(context.contentResolver, Settings.Secure.USER_SETUP_COMPLETE, 0) != 0
     }
 
     companion object {
