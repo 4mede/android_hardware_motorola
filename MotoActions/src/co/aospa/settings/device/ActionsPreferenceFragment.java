@@ -20,7 +20,6 @@ package co.aospa.settings.device;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragmentCompat;
 
 public class ActionsPreferenceFragment extends PreferenceFragmentCompat {
