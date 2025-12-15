@@ -26,3 +26,11 @@ phony {
         "MotoSystemUIResSensors",
     ]
 }
+
+phony {
+    name: "MotoEuicc",
+    required: [
+        "EuiccPolicy",
+        "EuiccPolicyMoto",
+    ]
+}
