@@ -30,7 +30,6 @@ cc_library_shared {
     ],
     cflags: [
         "-DLOG_TAG=\"sensors.motorola\"",
-    ],
     ] + select(soong_config_variable("moto_sensors", "udfps"), {
         false: [],
         default: ["-DENABLE_UDFPS"],
