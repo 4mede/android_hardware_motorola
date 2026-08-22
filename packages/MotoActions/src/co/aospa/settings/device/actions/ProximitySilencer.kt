@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.actions
+package co.aospa.settings.device.actions
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -15,8 +15,8 @@ import android.telecom.TelecomManager
 import android.telephony.TelephonyCallback
 import android.telephony.TelephonyManager
 import android.util.Log
-import org.lineageos.settings.device.MotoActionsSettings.GESTURE_IR_SILENCER_KEY
-import org.lineageos.settings.device.SensorHelper
+import co.aospa.settings.device.MotoActionsSettings.GESTURE_IR_SILENCER_KEY
+import co.aospa.settings.device.SensorHelper
 
 class ProximitySilencer(
     private val context: Context,

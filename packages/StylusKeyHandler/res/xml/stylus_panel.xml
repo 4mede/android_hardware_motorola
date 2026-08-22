@@ -24,7 +24,7 @@
             android:summary="@string/stylus_vibrate_when_removed_summary"
             android:defaultValue="true" />
 
-        <org.lineageos.settings.stylus.AppPickerPreference
+        <co.aospa.settings.stylus.AppPickerPreference
             android:key="launch_app"
             android:title="@string/stylus_launch_app_title"
             android:summary="@string/none" />

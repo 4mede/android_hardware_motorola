@@ -4,7 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="org.lineageos.euicc.overlay.moto">
-    <overlay android:targetPackage="org.lineageos.euicc"
+          package="co.aospa.euicc.overlay.moto">
+    <overlay android:targetPackage="co.aospa.euicc"
              android:isStatic="true" />
 </manifest>

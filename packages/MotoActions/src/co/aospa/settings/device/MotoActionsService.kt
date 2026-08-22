@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device
+package co.aospa.settings.device
 
 import android.app.Service
 import android.content.BroadcastReceiver
@@ -16,12 +16,12 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener
 import android.os.IBinder
 import android.util.Log
 import androidx.preference.PreferenceManager
-import org.lineageos.settings.device.actions.ChopForTorch
-import org.lineageos.settings.device.actions.DozePulse
-import org.lineageos.settings.device.actions.FlipToMute
-import org.lineageos.settings.device.actions.LiftToSilence
-import org.lineageos.settings.device.actions.ProximitySilencer
-import org.lineageos.settings.device.actions.UpdatedStateNotifier
+import co.aospa.settings.device.actions.ChopForTorch
+import co.aospa.settings.device.actions.DozePulse
+import co.aospa.settings.device.actions.FlipToMute
+import co.aospa.settings.device.actions.LiftToSilence
+import co.aospa.settings.device.actions.ProximitySilencer
+import co.aospa.settings.device.actions.UpdatedStateNotifier
 
 class MotoActionsService : Service() {
 

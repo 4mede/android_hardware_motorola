@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.actions
+package co.aospa.settings.device.actions
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -17,9 +17,9 @@ import android.hardware.camera2.CameraManager.TorchCallback
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.util.Log
-import org.lineageos.settings.device.MotoActionsSettings.GESTURE_CHOP_CHOP_KEY
-import org.lineageos.settings.device.SensorHelper
-import org.lineageos.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_CHOP_CHOP
+import co.aospa.settings.device.MotoActionsSettings.GESTURE_CHOP_CHOP_KEY
+import co.aospa.settings.device.SensorHelper
+import co.aospa.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_CHOP_CHOP
 
 class ChopForTorch(
     context: Context,
@@ -116,6 +116,6 @@ class ChopForTorch(
         }
 
     companion object {
-        private const val TAG = "MotoActions-ChopForTorch"
+        private const val TAG = "ChopForTorch"
     }
 }

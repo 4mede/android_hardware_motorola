@@ -169,7 +169,7 @@ class DoubleTapSensor : public SysfsPollingOneShotSensor {
     DoubleTapSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
         : SysfsPollingOneShotSensor(sensorHandle, callback, kTsDoubleTapPressedPath,
                                     kTsDoubleTapEnabledPath, "Double Tap Sensor",
-                                    "org.lineageos.sensor.double_tap",
+                                    "co.aospa.sensor.double_tap",
                                     static_cast<SensorType>(SENSOR_TYPE_BASE + 1)) {}
 };
 #endif
@@ -183,7 +183,7 @@ class UdfpsSensor : public SysfsPollingOneShotSensor {
     UdfpsSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
         : SysfsPollingOneShotSensor(
                   sensorHandle, callback, kTsUdfpsPressedPath, kTsUdfpsEnabledPath, "UDFPS Sensor",
-                  "org.lineageos.sensor.udfps", static_cast<SensorType>(SENSOR_TYPE_BASE + 2)) {}
+                  "co.aospa.sensor.udfps", static_cast<SensorType>(SENSOR_TYPE_BASE + 2)) {}
 };
 #endif
 

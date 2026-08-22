@@ -1,6 +1,5 @@
 # Camera
 type vendor_imager_metadata_file, file_type, data_file_type;
-type vendor_persist_camera_file, file_type, vendor_persist_type;
 
 # Capsense
 type vendor_sysfs_capsense, fs_type, sysfs_type;
@@ -11,9 +10,6 @@ type vendor_cutback_socket, file_type;
 
 # Devicetree
 type sysfs_dt_chosen, sysfs_type, fs_type;
-
-# Fingerprint
-type vendor_persist_fps_file, file_type, vendor_persist_type;
 
 # Input Devices
 type vendor_sysfs_input, fs_type, sysfs_type;
@@ -32,9 +28,6 @@ type proc_sched_lib_mask_cpuinfo, fs_type, proc_type;
 
 # Powershare
 type vendor_sysfs_wlc, fs_type, sysfs_type;
-
-# Radio
-type vendor_persist_mdm_file, file_type, vendor_persist_type;
 
 # Touchscreen
 type vendor_sysfs_touchpanel, fs_type, sysfs_type;

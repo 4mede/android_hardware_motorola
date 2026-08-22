@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.actions
+package co.aospa.settings.device.actions
 
 interface UpdatedStateNotifier {
     fun updateState()

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.stylus
+package co.aospa.settings.stylus
 
 import android.content.Context
 import android.content.Intent
@@ -20,7 +20,7 @@ import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.android.settingslib.widget.preference.app.R as settingslib_R
-import org.lineageos.settings.resources.R as devicesettings_R
+import co.aospa.resources.R as devicesettings_R
 
 class AppPickerPreference(context: Context, attrs: AttributeSet) :
     DialogPreference(context, attrs) {

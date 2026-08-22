@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.actions
+package co.aospa.settings.device.actions
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -15,10 +15,10 @@ import android.telecom.TelecomManager
 import android.telephony.TelephonyCallback
 import android.telephony.TelephonyManager
 import android.util.Log
-import org.lineageos.settings.device.MotoActionsSettings.GESTURE_LIFT_TO_SILENCE_KEY
-import org.lineageos.settings.device.SensorHelper
-import org.lineageos.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_FLAT_UP
-import org.lineageos.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_STOW
+import co.aospa.settings.device.MotoActionsSettings.GESTURE_LIFT_TO_SILENCE_KEY
+import co.aospa.settings.device.SensorHelper
+import co.aospa.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_FLAT_UP
+import co.aospa.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_STOW
 
 class LiftToSilence(
     private val context: Context,

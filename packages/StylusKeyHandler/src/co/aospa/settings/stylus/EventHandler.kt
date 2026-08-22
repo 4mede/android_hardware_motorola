@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.stylus
+package co.aospa.settings.stylus
 
 import android.content.Context
 import android.content.Intent

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.actions
+package co.aospa.settings.device.actions
 
 import android.app.NotificationManager
 import android.content.BroadcastReceiver
@@ -16,10 +16,10 @@ import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.util.Log
-import org.lineageos.settings.device.MotoActionsSettings.GESTURE_FLIP_TO_MUTE_KEY
-import org.lineageos.settings.device.SensorHelper
-import org.lineageos.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_FLAT_DOWN
-import org.lineageos.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_STOW
+import co.aospa.settings.device.MotoActionsSettings.GESTURE_FLIP_TO_MUTE_KEY
+import co.aospa.settings.device.SensorHelper
+import co.aospa.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_FLAT_DOWN
+import co.aospa.settings.device.SensorHelper.Companion.SENSOR_TYPE_MMI_STOW
 
 class FlipToMute(
     private val context: Context,
